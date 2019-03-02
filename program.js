@@ -17,17 +17,7 @@ process.stdin.on('readable', function() {
 		    	process.exit();
     		default: 
     			process.stderr.write('Wrong instruction!');
+    			process.
 			}
     }
 });
-
-
-
-/*
-        if (instruction === '/exit') {
-            process.stdout.write('Quitting app!\n');
-            process.exit();
-        } else {
-            process.stderr.write('Wrong instruction!');
-        }
-*/
